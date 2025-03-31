@@ -296,7 +296,7 @@ function doSubmit() {
 
   setBtnLoading()
 
-  let scriptUrl = "https://script.google.com/macros/s/AKfycbxIh-ZNhgCTmsH3RgLX7dm22BtK7VldqcpUtWmYhO80QDu29irYQZqV3wF2AN2gN_U6/exec";
+  let scriptUrl = "https://script.google.com/macros/s/AKfycbwfRxQ8AY5tqFoGDXmJLqs5LuN-2AOrwJYY5AY0qbZ8t_VRz2AH2G6olUIuJFr08cL3/exec";
   let formData = {
     name: document.getElementById('form_name').value,
     email: document.getElementById('form_email').value,
